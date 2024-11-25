@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0071dc;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Search Bar */
+.search-bar input {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 6px 10px;
+    font-size: 1rem;
+    background-color: #005bb5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Header Actions (Cart and Sign In) */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-actions button {
+    padding: 6px 10px;
+    font-size: 1rem;
+    background-color: #005bb5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header-actions .signin {
+    background-color: #ffa41b; /* Distinct color for Sign In */
+}
+
+/* Navigation */
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e8f5fd;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Products Section */
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product button {
+    padding: 5px 10px;
+    background-color: #0071dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0071dc;
+    color: #fff;
+}
+
+/* Sign In Page */
+.signin-page {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.signin-page h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.signin-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.signin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signin-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #0071dc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signin-form a {
+    color: #0071dc;
+    text-decoration: none;
+}
+
+.signin-form a:hover {
+    text-decoration: underline;
+}
